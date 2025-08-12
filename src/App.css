@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+@layer utilities {
+  .ellipsis-1 {
+    @apply overflow-ellipsis whitespace-nowrap overflow-hidden;
+  }
+  .ellipsis-2 {
+    @apply overflow-ellipsis overflow-hidden;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  .ellipsis-3 {
+    @apply overflow-ellipsis overflow-hidden;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+  .ellipsis-4 {
+    @apply overflow-ellipsis overflow-hidden;
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+}
