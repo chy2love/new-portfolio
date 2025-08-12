@@ -47,7 +47,7 @@ jobs:
           project: portfolio
           stage: main
           yaml: |
-            name: Portfolio
+            name: portfolio
             app: container
             options:
               port: 8080
